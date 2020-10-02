@@ -179,7 +179,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener {
         g.setColor(Color.green);
         g.fillRect(0, HEIGHT - 120, WIDTH, 20);
 
-        g.setColor(Color.red);
+        g.setColor(Color.yellow);
         g.fillRect(bird.x, bird.y, bird.width, bird.height);
 
         for (Rectangle column : columns) {
